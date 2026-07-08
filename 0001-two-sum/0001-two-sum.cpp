@@ -7,8 +7,7 @@ public:
         {
             if(n.find(target-nums[i]) != n.end())
                 return {i,n[target-nums[i]]};
-            if(n.find(nums[i])==n.end())
-                n[nums[i]] = i;
+            n[nums[i]] = i;
         }
 
         return ans;
