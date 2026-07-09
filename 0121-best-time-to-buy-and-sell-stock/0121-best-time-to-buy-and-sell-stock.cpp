@@ -5,7 +5,7 @@ public:
         int buy = prices[0];
         for(int i=0;i<prices.size();i++)
         {
-            if(prices[i]-buy<0)
+            if(buy>prices[i])
             {
                 buy=prices[i];
             }
