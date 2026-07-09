@@ -8,11 +8,11 @@ public:
             if(nums[i]>0)
             {
                 ans[even]=nums[i];
-                even=even+2;
+                even+=2;
             }
             else{
                 ans[odd]=nums[i];
-                odd=odd+2;
+                odd+=2;
             }
         }
         return ans;
