@@ -5,20 +5,15 @@ public:
         int left=0,right=matrix[0].size()-1,top=0,down=matrix.size()-1;
         while(left<=right && top<=down)
         {
-            if(left<=right)
+            for(int i=left;i<=right;i++)
+                ans.push_back(matrix[top][i]);
+            top++;
+
+            for(int i=top;i<=down;i++)
             {
-                for(int i=left;i<=right;i++)
-                    ans.push_back(matrix[top][i]);
-                top++;
+                ans.push_back(matrix[i][right]);
             }
-            if(top<=down)
-            {
-                for(int i=top;i<=down;i++)
-                {
-                    ans.push_back(matrix[i][right]);
-                }
-                right--;
-            }
+            right--;
             if(top<=down)
             {
                 for(int i=right;i>=left;i--)
