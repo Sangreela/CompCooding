@@ -21,8 +21,7 @@ public:
                     else if(temp>target)
                         r--;
                     else{
-                        vector<int>res = {nums[i],nums[j],nums[l],nums[r]};
-                        ans.push_back(res);
+                        ans.push_back({nums[i],nums[j],nums[l],nums[r]});
                         l++;
                         r--;
                         while(l<r && nums[l]==nums[l-1])
