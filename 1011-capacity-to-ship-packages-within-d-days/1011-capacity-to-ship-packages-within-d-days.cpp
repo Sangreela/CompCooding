@@ -13,7 +13,7 @@ public:
             else
                 sum += i;
             if(count>days)
-            break;
+                return false;
         }
         return count<=days;
     }
