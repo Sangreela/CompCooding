@@ -14,10 +14,7 @@ public:
             }
         }
         b += count/k;
-        if(b>=m)
-            return true;
-        else
-            return false;
+        return b>=m;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
         long long total = 1LL*m*k;
