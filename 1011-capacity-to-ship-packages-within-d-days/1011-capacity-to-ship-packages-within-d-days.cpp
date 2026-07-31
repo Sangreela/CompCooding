@@ -7,12 +7,13 @@ public:
         {
             if(sum+i>n)
             {
-                sum = 0;
+                sum = i;
                 count++;
             }
-            sum = sum + i;
+            else
+                sum += i;
             if(count>days)
-                break;
+            break;
         }
         return count<=days;
     }
