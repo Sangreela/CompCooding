@@ -3,9 +3,9 @@ public:
     long long check(int n, vector<int>&piles)
         {
             long long total=0;
-            for(int i=0;i<piles.size();i++)
+            for(int i:piles)
             {
-                total += (piles[i] + n-1)/n;
+                total += (i + n-1)/n;
             }
             return total;
         }
