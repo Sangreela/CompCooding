@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Sangreela/CompCooding/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/Sangreela/CompCooding/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/Sangreela/CompCooding/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sangreela/CompCooding/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/Sangreela/CompCooding/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Sangreela/CompCooding/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Sangreela/CompCooding/tree/master/0560-subarray-sum-equals-k) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/Sangreela/CompCooding/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Sangreela/CompCooding/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Sangreela/CompCooding/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sangreela/CompCooding/tree/master/0142-linked-list-cycle-ii) |
 | [0876-middle-of-the-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0876-middle-of-the-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Sangreela/CompCooding/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sangreela/CompCooding/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sangreela/CompCooding/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0237-delete-node-in-a-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0876-middle-of-the-linked-list) |
@@ -147,4 +150,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Sangreela/CompCooding/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/Sangreela/CompCooding/tree/master/0142-linked-list-cycle-ii) |
 <!---LeetCode Topics End-->
