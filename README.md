@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Sangreela/CompCooding/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Sangreela/CompCooding/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Sangreela/CompCooding/tree/master/0229-majority-element-ii) |
+| [0283-move-zeroes](https://github.com/Sangreela/CompCooding/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Sangreela/CompCooding/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Sangreela/CompCooding/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Sangreela/CompCooding/tree/master/0560-subarray-sum-equals-k) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Sangreela/CompCooding/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Sangreela/CompCooding/tree/master/0142-linked-list-cycle-ii) |
 | [0234-palindrome-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/Sangreela/CompCooding/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/Sangreela/CompCooding/tree/master/0876-middle-of-the-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Sangreela/CompCooding/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
