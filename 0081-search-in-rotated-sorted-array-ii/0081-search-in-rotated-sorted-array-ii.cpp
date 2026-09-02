@@ -1,31 +1,30 @@
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
-        int l=0,r=nums.size()-1;
-        while(l<=r)
+        int left = 0;
+        int right = nums.size()-1;
+        while(left<=right)
         {
-            int m = l+(r-l)/2;
-            if(nums[m]==target)
+            int mid = left+(right-left)/2;
+            if(nums[mid]==target)
                 return true;
-            if(nums[m]==nums[l]&&nums[m]==nums[r])
+            if (nums[left] == nums[mid] && nums[mid] == nums[right]) {
+                left++;
+                right--;
+            }   
+            else if(nums[left]<=nums[mid])
             {
-                l++;
-                r--;
-                continue;
-            }
-            if(nums[l]<=nums[m])
-            {
-                if(target<=nums[m]&&target>=nums[l])
-                    r = m-1;
+                if(target>=nums[left]&&target<nums[mid])
+                    right = mid-1;
                 else
-                    l = m+1;
+                    left = mid+1;
             }
             else
             {
-                if(target>=nums[m]&&target<=nums[r])
-                    l = m+1;
+                if(target>nums[mid]&&target<=nums[right])
+                    left = mid+1;
                 else
-                    r = m-1;
+                    right = mid-1;
             }
         }
         return false;
