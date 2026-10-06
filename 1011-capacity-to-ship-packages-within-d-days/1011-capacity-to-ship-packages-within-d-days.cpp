@@ -1,29 +1,31 @@
+#include <algorithm>
+#include <numeric>
 class Solution {
 public:
-    bool possible(int n, vector<int>& weights, int days)
+    bool possible(vector<int>weights,int min,int days)
     {
-        int sum=0,count=1;
-        for(int i:weights)
+        int count=1;
+        long long sum=0;
+        for(int i=0;i<weights.size();i++)
         {
-            if(sum+i>n)
+            sum += weights[i];
+            if(sum>min)
             {
-                sum = i;
+                sum=weights[i];
                 count++;
             }
-            else
-                sum += i;
             if(count>days)
-                return false;
+                break;
         }
         return count<=days;
     }
     int shipWithinDays(vector<int>& weights, int days) {
         int low = *max_element(weights.begin(),weights.end());
-        int high = accumulate(weights.begin(),weights.end(),0);
+        long long high = accumulate(weights.begin(), weights.end(), 0);
         while(low<=high)
         {
-            int mid = low + (high-low)/2;
-            if(!possible(mid,weights,days))
+            int mid = (low+high)/2;
+            if(!possible(weights,mid,days))
                 low = mid+1;
             else
                 high = mid-1;
