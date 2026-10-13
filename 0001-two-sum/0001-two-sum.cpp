@@ -5,14 +5,12 @@ public:
         for(int i=0;i<nums.size();i++)
         {
             int n = target-nums[i];
-            if(sum.find(n)!=sum.end())
+            if(sum.find(n)!= sum.end())
             {
-                return {sum[n],i};
+                return {i,sum[n]};
             }
             else
-            {
                 sum[nums[i]] = i;
-            }
         }
         return {};
     }
